@@ -1,5 +1,6 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body >
 <section class="container-fluid"> 
@@ -8,6 +9,36 @@
             <img src="https://t3.ftcdn.net/jpg/09/52/78/68/240_F_952786811_oAEGJctfVOHBQy4KJE9v8xDcSn7ZoDWX.jpg" width="100%" height="150px">
         </div>
     </div>
+
+    
+      
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item  col-12 ps-0 ps-lg-5 col-md-10 ">
+                <a class="nav-link active" aria-current="page" href="#makeyourown">Services</a>
+              </li>
+              <li class="nav-item col-12 col-md-10">
+                <a class="nav-link active" aria-current="page" href="#aboutus">About</a>
+              </li>
+              <li class="nav-item col-12 col-md-10">
+                <a class="nav-link active" aria-current="page" href="#locations">Locations</a>
+              </li>
+              <li class="nav-item col-12 col-md-10">
+                <a class="nav-link active" aria-current="page" href="#contactus">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+
+
     <div class="row text-center">
         <div class="column">
             <h1 class="h2">Tim's Bakery</h1>
@@ -21,21 +52,32 @@
 </section>
 <section class="container">  
     <div class="row">
-        <div class="column col-12 mt-2 col-md-4 justify-content-center text-center ">
-            <img class="img-fluid rounded" src="https://media.istockphoto.com/id/1370529871/photo/chefs-hands-spraying-flour-over-the-dough.webp?a=1&b=1&s=612x612&w=0&k=20&c=lkRP_pQlebjfX_uEoLaWevEoOipUga9Vl_CAnOXJb0M=" width="350px" height="auto">
-            <h3 class="h4">Make Your Own Pizza!</h3>
-            <p class="bg-info p-2 text-light rounded">Come enjoy a party. We do Pizza making for all ages. Birthday parties, school events, family get togethers. Come enjoy making pizza together, and enjoy your own party afterwards. It will be a night to remember.</p>
+        <div id="makeyourown" class="card col-12 col-md-3 m-4 p-3 img-fluid justify-content-center text-center" >
+            <img class="rounded p-2" src="https://media.istockphoto.com/id/1370529871/photo/chefs-hands-spraying-flour-over-the-dough.webp?a=1&b=1&s=612x612&w=0&k=20&c=lkRP_pQlebjfX_uEoLaWevEoOipUga9Vl_CAnOXJb0M=" class="card-img-top" alt="Pizza Making">
+            <div class="card-body">
+              <h5 class="card-title">Make Your Own Pizza!</h5>
+              <p class="card-text bg-info  p-2 text-light rounded">Come enjoy a party. We do Pizza making for all ages. Birthday parties, school events, family get togethers. Come enjoy making pizza together, and enjoy your own party afterwards. It will be a night to remember.</p>
+              <a href="#" class="btn btn-primary">Book Party!</a>
+            </div>
         </div>
-        <div class="column col-12 mt-2 col-md-4 justify-content-center text-center">
-            <img class="img-fluid rounded" src="https://media.istockphoto.com/id/1854521028/photo/modern-bakery-cafe.webp?a=1&b=1&s=612x612&w=0&k=20&c=4HfHjXk7Fme2Llk0JD-VMZlST0wGs2qH4U3pA7elFWs="  width="350px" height="auto">
-            <h3 class="h4">Store Front!</h3>
-            <p class="bg-info  p-2 text-light rounded">Come enjoy our wide range of baked goods. We have donuts, cookies, strudels, and so much more! Enjoy our wide range of premade goodies - or request your own custom made cakes!</p>
-        </div>
-        <div class="column col-12 mt-2 col-md-4 justify-content-center text-center">
-            <img class="img-fluid rounded" src="https://media.istockphoto.com/id/1482057141/photo/portrait-of-latino-male-baker-making-cookies-in-bakehouse.webp?a=1&b=1&s=612x612&w=0&k=20&c=QCZwzWI-izS79b7rAkkSfQhZEcqrO_UImw_7qHLMGn0="  width="350px" height="auto">
-            <h3 class="h4">Catering!</h3>
-            <p class="bg-info p-2 text-light rounded">No party is too big or too small. We cater a wide variety of events. Family parties, weddings, events, and so much more. Make your next event one to remember. Tim's will take care of all of the details, and you can sit back and enjoy!</p>
-        </div>
+
+        <div class="card col-12 col-md-3 m-4 p-3  img-fluid justify-content-center text-center ">
+            <img class="rounded p-2" src="https://media.istockphoto.com/id/1854521028/photo/modern-bakery-cafe.webp?a=1&b=1&s=612x612&w=0&k=20&c=4HfHjXk7Fme2Llk0JD-VMZlST0wGs2qH4U3pA7elFWs=" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title h4">Store Front!</h5>
+              <p class="card-text bg-info  p-2 text-light rounded">Come enjoy our wide range of baked goods. We have donuts, cookies, strudels, and so much more! Enjoy our wide range of premade goodies - or request your own custom made cakes!</p>
+              <a href="#" class="btn btn-primary">Order Here</a>
+            </div>
+          </div>
+
+        <div class="card col-12 col-md-3 m-4 p-3  img-fluid justify-content-center text-center ">
+            <img class="rounded p-2" src="https://media.istockphoto.com/id/1482057141/photo/portrait-of-latino-male-baker-making-cookies-in-bakehouse.webp?a=1&b=1&s=612x612&w=0&k=20&c=QCZwzWI-izS79b7rAkkSfQhZEcqrO_UImw_7qHLMGn0=" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title h4">Catering!</h5>
+              <p class="card-text bg-info  p-2 text-light rounded">No party is too big or too small. We cater a wide variety of events. Family parties, weddings, events, and so much more. Make your next event one to remember. Tim's will take care of all of the details, and you can sit back and enjoy!</p>
+              <a href="#" class="btn btn-primary">Order Here</a>
+            </div>
+        </div> 
     </div>
 </section>
 <section class="container ">
@@ -55,18 +97,23 @@
             </div>
         
         </div>
-        <div class="col col-12 col-md-8 text-center justify-content-center">
-            <h1>About us!</h1>
-            <img src="https://media.istockphoto.com/id/1833455732/photo/baker-taking-trays-of-bread-out-of-the-over.webp?a=1&b=1&s=612x612&w=0&k=20&c=2XcKF3O217prTVhKT9c1zPDmS-8cJrcT85roCi4G58k=" width="350px" height="auto">
-            <p class="lead bg-primary rounded mt-3 p-2">Tim's bakery is a state of the art bakery. All ingredients are baked fresh every morning. We have been around since 1885, baking for your every need. Located in Central Jersey, it is a 20 minute drive from the City. Our freindly staff cannot wait to serve you.</p>
+        <div class="card col col-12 col-md-7 text-center ms-3 p-3 justify-content-center card-border-width:3px" >
+            <img src="https://media.istockphoto.com/id/1833455732/photo/baker-taking-trays-of-bread-out-of-the-over.webp?a=1&b=1&s=612x612&w=0&k=20&c=2XcKF3O217prTVhKT9c1zPDmS-8cJrcT85roCi4G58k=" class="card-img-top img-fluid" alt="Our Bakery">
+            <div class="card-body">
+              <h5 id="aboutus" class="card-title">About Us</h5>
+              <p class="card-text lead bg-primary rounded mt-3 p-2">Tim's bakery is a state of the art bakery. All ingredients are baked fresh every morning. We have been around since 1885, baking for your every need. Located in Central Jersey, it is a 20 minute drive from the City. Our freindly staff cannot wait to serve you.</p>
+              <a href="#" class="btn btn-primary">Learn More!</a>
+            </div>
         </div>
+
+
         
     </div>
 </section>
 <section class="countainer mt-3">
     <div class="row  text-center justify-content-center">
         <div class="col-6">
-            <table class="table text-center table-light table-striped border-solid">
+            <table id="locations" class="table text-center table-light table-striped border-solid">
                 <tr >
                     <th>
                         Locations
@@ -161,7 +208,7 @@
             </div>
         </div>
 
-        <div class="col g-3 col-12 col-md-4 ">
+        <div id="contactus" class="col g-3 col-12 col-md-4 ">
             <div class="row text-center justify-content-center mt-md-1">
                 <h6 class="fst-italic">Sign up!</h6>
             </div>
